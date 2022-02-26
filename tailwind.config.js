@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily : {
-         primary : ["'Poppins',san-serif"]
+         primary : ["'Montserrat', sans-serif"]
       },
       colors : {
         secondary : {

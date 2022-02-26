@@ -6,7 +6,11 @@ padding: 0;
 list-style-type: none;
 }
 .App{
-    @apply bg-secondary-200 flex justify-center items-center flex-col;
+    @apply bg-secondary-100 flex justify-center items-center flex-col font-primary;
+    background-image: url('./images/bg-top.svg'),url('./images/bg-bottom.svg');
+    background-position: top right,bottom left;
+    background-repeat: no-repeat;
+    background-size: 300px;
 }
 .switch{
     position: relative;

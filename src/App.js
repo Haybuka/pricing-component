@@ -35,7 +35,7 @@ function App() {
     <main className="App lg:h-screen lg:w-screen">
         <section className='my-10'>
            <h1 className='text-center text-2xl font-bold text-secondary-400'>Our Pricing</h1>
-           <div className='flex justify-center items-center my-4'>
+           <div className='flex justify-center items-center my-4 text-secondary-400'>
               <p>Annually</p>
               <label className='switch mx-6'>
                 <input type="checkbox" autoFocus/>
